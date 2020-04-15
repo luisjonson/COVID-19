@@ -1,0 +1,75 @@
+#todo {
+	margin: 0 auto;
+	width: 65%
+}
+
+#menu {
+	font-size: 30px;
+	background: #ADD8E6;
+	margin: 0 auto;
+	height: 20%;
+}
+
+#logo {
+	width: 20%;
+	height: 20%;
+}
+
+a {
+	font-family: serif;
+	font-size: 10px;
+}
+
+#home {
+	background: #DCDCDC;
+	margin: 0 auto;
+	height: 20%;
+}
+
+img {
+	padding: 5px;
+	width: 50%;
+}
+
+#noticia {
+	padding: 3%;
+}
+
+footer {
+	background-color: #DCDCDC;
+}
+
+#card {
+	padding: 2px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#titulo {
+	text-align: center;
+	padding: 5px;
+	height: 20%;
+	background: blue;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	align-items: center;
+}
+
+#rodape {
+	padding: 1%;
+	height: 20%;
+	background: blue;
+}
+
+.jm_video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	background: url(images/torre.jpg) no-repeat;
+	background-size: cover;
+}
