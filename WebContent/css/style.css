@@ -4,10 +4,8 @@
 }
 
 #menu {
-	font-size: 30px;
+	font-size: 40px;
 	background: #ADD8E6;
-	margin: 0 auto;
-	height: 20%;
 }
 
 #logo {
@@ -28,7 +26,7 @@ a {
 
 img {
 	padding: 5px;
-	width: 50%;
+	width: 100%;
 }
 
 #noticia {
@@ -58,9 +56,19 @@ footer {
 #rodape {
 	padding: 1%;
 	height: 20%;
-	background: blue;
+	background: #70DBDB;
+	margin-top: 3px;
+}
+
+#sobre {
+	background: #DCDCDC
+}
+
+td {
+	padding: 10px;
+	margin: -20px;
 }
 
 #texto {
-	padding: 1%;
+	padding: 10px;
 }
