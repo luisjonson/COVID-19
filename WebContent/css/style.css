@@ -64,6 +64,10 @@ footer {
 	background: #DCDCDC
 }
 
+#contatos {
+	align-content: center;
+}
+
 td {
 	padding: 10px;
 	margin: -20px;
@@ -71,4 +75,23 @@ td {
 
 #texto {
 	padding: 10px;
+}
+
+#wats {
+	width: 30px;
+	padding: -10px;
+}
+
+h2 {
+	border: 2px;
+	padding: 10px;
+}
+
+p {
+	padding: 10px;
+}
+
+#for {
+	margin: 0%;
+	width: 50%;
 }

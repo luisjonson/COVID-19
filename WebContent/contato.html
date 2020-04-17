@@ -11,7 +11,7 @@
 	<div id="todo">
 
 
-	
+
 
 
 		<div id="card">
@@ -20,7 +20,7 @@
 				<div id="titulo">
 					<header>
 						<h1>
-								<a href="index.html"><h1>Volta</h1></a>
+							<a href="index.html"><h1>Volta</h1></a>
 						</h1>
 					</header>
 				</div>
@@ -28,35 +28,52 @@
 
 
 				<div id="subtitulo">
-					<p></p>
-				</div>
-				<div id="imagem">
-				<form action="">
-				
-					<input type="text" placeholder="Digite o seu nome"/><br><br>
-					<textarea type="text" placeholder="Digite aqui ..."/>
-					<button value="Enviar" >Enviar</button>
-				</form>
-				
-				</div>
 
-				<div id="rodape">
-					<a></a>
 
-					<p></p>
+					<div id="for">
+						<form action="/pagina-processa-dados-do-form" method="post">
+							<div>
+								<label for="name">Nome:</label> <input type="text" id="name" /><br>
+
+							</div>
+							<div>
+								<label for="mail">E-mail:</label> <input type="email" id="mail" /><br>
+							</div>
+							<div>
+								<label for="msg">Mensagem:</label>
+								<textarea id="msg"></textarea>
+							</div>
+							<div class="button">
+								<button type="submit">Enviar sua mensagem</button>
+							</div>
+						</form>
+
+					</div>
 				</div>
-
 			</section>
 		</div>
 
-
-
 		<footer>
 			<section id="contato">
-				<p>#Fique em Casa.
+				<p>
+				<h2>#Fique em Casa.</h2>
+
+				<table id="contatos">
+
+					<tr>
+						<td><a href="linkedin.com/in/luis-lindonjonson-28b221117"><img
+								id="wats" alt="Linkedin" src="img/in.png"></a></td>
+
+						<td><a href="https://github.com/luisjonson/COVID-19"><img
+								id="wats" alt="github" src="img/git.png"></a></td>
+					</tr>
+
+				</table>
+
 				<p>Desenvolvido por Luis Lindonjonson</p>
 			</section>
 		</footer>
+
 
 	</div>
 </body>
