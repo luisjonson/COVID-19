@@ -74,7 +74,7 @@ img {
 #titulo {
 	text-align: center;
 	padding: 5px;
-	height: 20%;   
+	height: 20%;
 	background: #ADD8E6;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -109,10 +109,15 @@ h2 {
 }
 /*rodapé*/
 #redes {
-	width: 20%;
+	margin: 5px;
+	width: 100%;
+	background: #ADD8E6;
+	border-radius: 10px;
 }
 
-#redestexto p {
-	text-align: center;
-	width: 100%;
+#redes table tr td a img{
+	width: 30px;
+	margin: 20px;
+	
 }
+

@@ -38,3 +38,18 @@ body {
 	margin-top: 3px;
 	border-radius: 0px 0px 10px 10px;
 }
+
+/*rodapé*/
+#redes {
+	margin: 5px;
+	width: 100%;
+	background: #ADD8E6;
+	border-radius: 10px;
+}
+
+#redes table tr td a img{
+	width: 30px;
+	margin: 20px;
+	
+}
+

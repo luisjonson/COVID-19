@@ -52,33 +52,21 @@
 	border-radius: 7px;
 }
 
+
+
+/*rodapé*/
 #redes {
-	margin: 0 auto;
-	width: 54%;
-}
-
-#redes ul {
+	margin: 5px;
+	width: 50%;
+	background: #ADD8E6;
 	border-radius: 10px;
-	background-color: #ADD8E6;
-	/*retira o marcador da lista*/
-	list-style: none;
 }
 
-#redes ul li {
-	display: inline;
+#redes table tr td a{
+	padding: 10 40;
 }
-
-#redes ul li a {
-	padding: 10px 15px;
-	display: inline-block;
-	text-decoration: none;
-}
-
-#redes ul li a img {
-	padding: 5px;
-	width: 10%;
-}
-
-#redes ul li a:hover {
-	color: #DCDCDC;
+#redes table tr td a img {
+	width: 30px;
+	margin: 10px;
+	
 }
