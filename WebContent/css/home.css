@@ -1,0 +1,118 @@
+#todo {
+	margin: 0 auto;
+	width: 65%
+}
+
+a {
+	text-decoration: none;
+}
+
+#menu ul {
+	margin: 0;
+	background-color: #ADD8E6;
+	/*retira o marcador da lista*/
+	list-style: none;
+	border-radius: 10px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #DCDCDC;
+}
+
+#logo {
+	width: 20%;
+	height: 20%;
+}
+
+#home {
+	background: #DCDCDC;
+	margin: 0 auto;
+	height: 20%;
+	border-radius: 10px;
+}
+
+img {
+	padding: 5px;
+	width: 100%;
+}
+
+#noticia {
+	padding: 3%;
+}
+
+#contato ul {
+	margin: 0;
+	background-color: #ADD8E6;
+	/*retira o marcador da lista*/
+	list-style: none;
+	background-color: #DCDCDC;
+}
+
+#contato ul li {
+	display: inline;
+}
+
+#contato ul li a {
+	padding: 10px 5px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#contato ul li a:hover {
+	color: #DCDCDC;
+}
+
+#titulo {
+	text-align: center;
+	padding: 5px;
+	height: 20%;
+	background: blue;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	align-items: center;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#rodape {
+	padding: 1%;
+	height: 20%;
+	background: #70DBDB;
+	margin-top: 3px;
+}
+
+#contatos {
+	align-content: center;
+}
+
+td {
+	padding: 10px;
+	margin: -20px;
+}
+
+#texto {
+	padding: 10px;
+}
+
+h2 {
+	border: 2px;
+	padding: 10px;
+}
+/*rodapé*/
+#redes {
+	width: 20%;
+}
+#redestexto p {
+	text-align: center;
+	width: 100%;
+	
+}

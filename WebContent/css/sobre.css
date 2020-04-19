@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+#todo {
+	margin: 0 auto;
+	width: 65%
+}
+
+body {
+	margin: 1%;
+}
+
+#menu ul {
+	margin: 0;
+	background-color: #ADD8E6;
+	/*retira o marcador da lista*/
+	list-style: none;
+	border-radius: 10px 10px 0px 0
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #DCDCDC;
+}
+
+#rodape {
+	padding: 1%;
+	height: 20%;
+	background: #ADD8E6;
+	margin-top: 3px;
+	border-radius: 0px 0px 10px 10px;
+}

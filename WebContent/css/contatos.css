@@ -1,0 +1,84 @@
+#menu {
+	margin: 0 auto;
+	width: 54%;
+}
+
+#menu ul {
+	border-radius: 10px;
+	background-color: #ADD8E6;
+	/*retira o marcador da lista*/
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #DCDCDC;
+}
+
+#forme {
+	padding: 2%;
+	margin: 0 auto;
+	width: 50%;
+	background-color: #666;
+	border-radius: 10px;
+}
+
+#forme input {
+	padding: 2%;
+	margin: 10px;
+	width: 50%;
+	border-radius: 7%;
+}
+
+#forme textarea {
+	padding: 2%;
+	margin: 10px;
+	border-radius: 7px;
+	width: 50%;
+}
+
+#forme button {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 7px;
+}
+
+#redes {
+	margin: 0 auto;
+	width: 54%;
+}
+
+#redes ul {
+	border-radius: 10px;
+	background-color: #ADD8E6;
+	/*retira o marcador da lista*/
+	list-style: none;
+}
+
+#redes ul li {
+	display: inline;
+}
+
+#redes ul li a {
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#redes ul li a img {
+	padding: 5px;
+	width: 10%;
+}
+
+#redes ul li a:hover {
+	color: #DCDCDC;
+}
