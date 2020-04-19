@@ -52,7 +52,6 @@ img {
 
 #contato ul {
 	margin: 0;
-	background-color: #ADD8E6;
 	/*retira o marcador da lista*/
 	list-style: none;
 	background-color: #DCDCDC;
@@ -75,8 +74,8 @@ img {
 #titulo {
 	text-align: center;
 	padding: 5px;
-	height: 20%;
-	background: blue;
+	height: 20%;   
+	background: #ADD8E6;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	align-items: center;
@@ -86,8 +85,9 @@ img {
 #rodape {
 	padding: 1%;
 	height: 20%;
-	background: #70DBDB;
+	background: #ADD8E6;
 	margin-top: 3px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 #contatos {
@@ -111,8 +111,8 @@ h2 {
 #redes {
 	width: 20%;
 }
+
 #redestexto p {
 	text-align: center;
 	width: 100%;
-	
 }
