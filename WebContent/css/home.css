@@ -109,15 +109,20 @@ h2 {
 }
 /*rodapé*/
 #redes {
-	margin: 5px;
+	padding: 0;
 	width: 100%;
 	background: #ADD8E6;
 	border-radius: 10px;
 }
 
-#redes table tr td a img{
+#redes table tr td a img {
 	width: 30px;
-	margin: 20px;
-	
+	padding: 0px 50px 0px 50px;
 }
 
+#dev  h6 {
+	text-align: center;
+	margin: 0 auto;
+	background: #DCDCDC;
+	border-radius: 0px 0px 10px 10px;
+}

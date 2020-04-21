@@ -14,7 +14,7 @@ body {
 	background-color: #ADD8E6;
 	/*retira o marcador da lista*/
 	list-style: none;
-	border-radius: 10px 10px 0px 0
+	border-radius: 10px;
 }
 
 #menu ul li {
@@ -32,24 +32,36 @@ body {
 }
 
 #rodape {
-	padding: 1%;
+	padding: 0px 0px 0px 0px;
 	height: 20%;
 	background: #ADD8E6;
-	margin-top: 3px;
-	border-radius: 0px 0px 10px 10px;
+	margin: 3px;
+	border-radius: 10px;
 }
 
+#rodape p {
+	margin: 10px 10px 10px;
+}
+
+#rodape h2 {
+	margin: 10px 10px 10px;
+}
 /*rodapé*/
 #redes {
-	margin: 5px;
+	padding: 0;
 	width: 100%;
 	background: #ADD8E6;
 	border-radius: 10px;
 }
 
-#redes table tr td a img{
+#redes table tr td a img {
 	width: 30px;
-	margin: 20px;
-	
+	padding: 0px 50px 0px 50px;
 }
 
+#dev  h6 {
+	text-align: center;
+	margin: 0 auto;
+	background: #DCDCDC;
+	border-radius: 0px 0px 10px 10px;
+}
