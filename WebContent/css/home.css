@@ -46,6 +46,11 @@ img {
 	width: 100%;
 }
 
+video {
+	padding: 5px;
+	width: 100%;
+}
+
 #noticia {
 	padding: 3%;
 }
